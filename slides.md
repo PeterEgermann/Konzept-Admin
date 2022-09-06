@@ -76,7 +76,9 @@ li {
 
 # Das grundsätzliche Layout der Seiten
 
-## <img src="/Layout_Example.png" class="mt-5 rounded shadow" />
+<img src="/Layout_Example.png" class="mt-5 rounded shadow" />
+
+---
 
 # Komponenten
 
@@ -142,8 +144,8 @@ CSS
 
 <v-click>
 <div>
-Gerendert
-<img v-click src="/button-panel.png" class="rounded shadow" />
+View
+<img src="/button-panel.png" class="rounded shadow" />
 </div>
 </v-click>
 
@@ -187,21 +189,39 @@ View
 
 ### Breadcrumbs
 
-<div>
+
+- Breadcrumbs dienen zur Navigation auf verschachtelten Seiten
+
+<div grid="~ cols-2 gap-4">
+<div class="mt-5">
 
 CSS
 ```css
-.button-panel {
-    justify-content: flex-end;
-    display: flex;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-bottom: 3px;
+ol.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    margin-bottom: 7px;
 }
-
-.button-panel > * {
+ 
+ol.breadcrumb li {
+    display: inline;
+    font-size: 15px;
     margin-right: 5px;
 }
 ```
+
+</div>
+
+<div class="mt-5">
+
+View
+
 <img src="Breadcrumbs.png" class="rounded shadow" />
 </div>
+</div>
+
+---
+ ### Breadcrumbs
+
+ 
