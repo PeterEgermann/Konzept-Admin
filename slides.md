@@ -71,18 +71,21 @@ li {
 <div>
 <script> </> <!--- JS sollte immer mit appendFile() angehangen werden>
 ```
+
 ---
 
 # Das grundsätzliche Layout der Seiten
 
-<img src="/Layout_Example.png" class="mt-5 rounded shadow" />
----
- 
+## <img src="/Layout_Example.png" class="mt-5 rounded shadow" />
+
 # Komponenten
 
-Um eine einfache Wiederverwendbarkeit von häufig auftretenden Elementen zu erreichen, wurden diese in Komponenten eingeordnet. 
+Um eine einfache Wiederverwendbarkeit von häufig auftretenden Elementen zu erreichen, wurden diese in Komponenten eingeordnet.
+
 ### Form-Panel
+
 Hintergrund für unsere Inhalte
+
 <div grid="~ cols-2 gap-2">
 
 ```css
@@ -102,9 +105,23 @@ Hintergrund für unsere Inhalte
 ---
 
 ### Button-Panel
-Ansammlung von Buttons in einer Reihe
 
 <div grid="~ cols-2 gap-2">
+<div>
+
+- Ansammlung von Buttons in einer Reihe
+
+</div>
+<div>
+<div>
+HTML
+```html
+<div class="form-panel">
+  <!-- Content -->
+</div>
+```
+</div>
+CSS
 
 ```css
 .button-panel {
@@ -114,11 +131,48 @@ Ansammlung von Buttons in einer Reihe
     padding-right: 2px;
     margin-bottom: 3px;
 }
- 
+
 .button-panel > * {
     margin-right: 5px;
 }
 ```
 
-<img src="/form-panel.png" class="mt-2 rounded shadow" />
+</div>
+</div>
+
+<v-click>
+<div>
+Gerendert
+<img v-click src="/button-panel.png" class="rounded shadow" />
+</div>
+</v-click>
+
+---
+
+# Tabellen
+<div grid="~ cols-2 gap-2">
+<div>
+
+HTML
+```html {all|1|2}
+<div class="form-panel">
+    <table class="table table-striped data-table">
+    <thead>
+        <tr>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> </td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+```
+</div>
+
+<div>
+Tabellen sollten immer so a
+
 </div>
