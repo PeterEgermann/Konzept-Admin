@@ -430,12 +430,10 @@ HTML
 </style>
 
 <div class="mt-5 mb-5">
- View mit gemeinsamem Panel
+ View-Alt
  </div>
-
-
 <div class="center-div">
-<img src="/Zweispaltig_Gemeinsam.png" class="h-80 rounded shadow" />
+<img src="/filter_tabelle_etcd_old.png" class="h-80 rounded shadow" />
 </div>
 
 ---
