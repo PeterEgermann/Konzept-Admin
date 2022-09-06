@@ -71,39 +71,32 @@ li {
 <div>
 <script> </> <!--- JS sollte immer mit appendFile() angehangen werden>
 ```
-
-
-
 ---
-class: px-20
+
+# Das grundsätzliche Layout der Seiten
+
+<img src="/Layout_Example.png" class="mt-5 rounded shadow" />
 ---
  
 # Komponenten
 
-Um eine einfache Wiederverwendbarkeit von häufig auftretenden Elementen zu bilden wurden diese in Komponenten eingeordnet. 
-
+Um eine einfache Wiederverwendbarkeit von häufig auftretenden Elementen zu erreichen, wurden diese in Komponenten eingeordnet. 
+### Form-Panel
 <div grid="~ cols-2 gap-2" m="-t-2">
 
-```yaml
----
-theme: default
----
+```css
+.form-panel {
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 0 3px 2px #aab2bd;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
 ```
 
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
 
 </div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 
 ---
 preload: false
