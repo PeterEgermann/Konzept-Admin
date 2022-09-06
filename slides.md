@@ -55,31 +55,32 @@ li {
 ```ts
 <div class="placeholder"></div>
 ```
-<img src="https://github.com/PeterEgermann/Konzept-Admin/blob/main/public/Placeholder-example.png" class="mt-5 h-40 rounded shadow" />
+<img src="/Placeholder-example.png" class="mt-5 h-40 rounded shadow" />
 </v-click>
 ---
 
 # Das grundsätzliche Layout der Seiten
 
-```html {2|3}
-<h3></h3>
-<!- Breadcrumbs > (falls es eine Verschachtelung gibt, sollten diese vorhanden sein)
+```html {all|1|2|3|4|5,7|6|8}
+<Breadcrumbs>
 <h3> Überschrift </h3>
+<Service-URL>
 <div> Error-Rendering </div>
 <div class="container-fluid">
-    <Service-URL>
     <Content>
 <div>
 <script> </> <!--- JS sollte immer mit appendFile() angehangen werden>
 ```
 
+
+
 ---
 class: px-20
 ---
  
-# Themes
+# Komponenten
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+Um eine einfache Wiederverwendbarkeit von häufig auftretenden Elementen zu bilden wurden diese in Komponenten eingeordnet. 
 
 <div grid="~ cols-2 gap-2" m="-t-2">
 
