@@ -243,6 +243,7 @@ ol.breadcrumb li {
 
 View
 
+
 <img src="Breadcrumbs.png" class="rounded shadow" />
 </div>
 </div>
@@ -251,10 +252,8 @@ View
 
  ### Breadcrumbs
 
-
-<div class="mt-5 text-center">
+<div class="mt-5 center-div">
 <img src="Breadcrumbs_beispiel.png" class="rounded shadow h-100" />
-
 </div>
 
 ---
@@ -287,29 +286,18 @@ HTML
 ---
 
 ### Einspaltig
-<style>
 
-.center-div {
-  justify-content: center;
-  display: flex;
-}
-</style>
 <div class="mt-5 mb-5">
  View-Alt
  </div>
-<div class="center-div mt-10">
+<div class="center-div">
 <img src="/only_form_horizontal_old.png" class="h-80 rounded shadow" />
 </div>
 
 ---
 
 ### Einspaltig
-<style>
-.center-div {
-  justify-content: center;
-  display: flex;
-}
-</style>
+
 
 <div class="mt-5 mb-5">
  View-Neu
@@ -341,13 +329,6 @@ HTML mit getrennten Panels
 
 ### Zweispaltig
 
-<style>
-.center-div {
-  justify-content: center;
-  display: flex;
-}
-</style>
-
 <div class="mt-5 mb-5">
  View mit getrennten Panels
  </div>
@@ -358,6 +339,13 @@ HTML mit getrennten Panels
 </div>
 
 ---
+
+<style>
+.center-div {
+  justify-content: center;
+  display: flex;
+}
+</style>
 
 ### Zweispaltig
 <div>
@@ -420,7 +408,7 @@ HTML
 
 ---
 
-### Zweispaltig
+### Zeilen
 
 <style>
 .center-div {
@@ -433,7 +421,16 @@ HTML
  View-Alt
  </div>
 <div class="center-div">
-<img src="/filter_tabelle_etcd_old.png" class="h-80 rounded shadow" />
+<img src="/filter_tabelle_etcd_old.png" class="h-95 rounded shadow" />
 </div>
 
 ---
+
+### Zeilen
+
+<div class="mt-5 mb-5">
+ View-Neu
+ </div>
+<div class="center-div">
+<img src="/Layout_Example.png" class="h-95 rounded shadow" />
+</div>
