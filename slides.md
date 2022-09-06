@@ -271,13 +271,11 @@ Welche Seitenstrukturen treten wiederholt auf?
 
 --- 
 
-# Layouts
-
 ### Einspaltig
-<div grid="~ cols-2 gap-2">
 <div>
 HTML
-```html
+
+```html {all|1|2}
 <div class="container-fluid">
     <div class="form-panel col-xs-12 col-lg-6">
         <form> </form>
@@ -285,4 +283,71 @@ HTML
 </div>
 ```
 </div>
+
+---
+
+### Einspaltig
+<style>
+
+.center-div {
+  justify-content: center;
+  display: flex;
+}
+</style>
+<div class="mt-5 mb-5">
+ View-Alt
+ </div>
+<div class="center-div mt-10">
+<img src="/only_form_horizontal_old.png" class="h-80 rounded shadow" />
+</div>
+
+---
+
+### Einspaltig
+<style>
+.center-div {
+  justify-content: center;
+  display: flex;
+}
+</style>
+
+<div class="mt-5 mb-5">
+ View-Neu
+ </div>
+<div class="center-div">
+<img src="/only_form_horizontal_new.png" class="h-80 rounded shadow" />
+</div>
+
+---
+
+### Zweispaltig
+<style>
+
+.center-div {
+  justify-content: center;
+  display: flex;
+}
+</style>
+<div class="mt-5 mb-5">
+ View-Alt
+ </div>
+<div class="center-div mt-10">
+<img src="/only_form_horizontal_old.png" class="h-80 rounded shadow" />
+</div>
+
+---
+
+### Zweispaltig
+<style>
+.center-div {
+  justify-content: center;
+  display: flex;
+}
+</style>
+
+<div class="mt-5 mb-5">
+ View-Neu
+ </div>
+<div class="center-div">
+<img src="/only_form_horizontal_new.png" class="h-80 rounded shadow" />
 </div>
