@@ -180,7 +180,7 @@ View
 <div>
 
 HTML
-```html {all|1|2}
+```html {all|1,14|2,13|3,7|8,12}
 <div class="form-panel">
     <table class="table table-striped data-table">
     <thead>
@@ -212,7 +212,7 @@ View
 --- 
 
 ### Breadcrumbs
-
+mit getrennten Panels
 <div class="mt-5 mb-5">
 
 - Einfache Navigation auf verschachtelten Seiten
@@ -271,9 +271,10 @@ Welche Seitenstrukturen treten wiederholt auf?
 --- 
 
 ### Einspaltig
-<div>
-HTML
 
+<div>
+
+HTML
 ```html {all|1,5|2,4|3}
 <div class="container-fluid">
     <div class="form-panel col-xs-12 col-lg-6">
@@ -308,10 +309,10 @@ HTML
 
 ---
 
-### Zweispaltig
+### Zweispaltig - getrennte Panels
 <div>
 
-HTML mit getrennten Panels
+HTML
 
 ```html {all|1,8|2,4|5,7}
 <div class="container-fluid">
@@ -327,10 +328,10 @@ HTML mit getrennten Panels
 
 ---
 
-### Zweispaltig
+### Zweispaltig - getrennte Panels
 
 <div class="mt-5 mb-5">
- View mit getrennten Panels
+ View
  </div>
 
 
@@ -347,10 +348,10 @@ HTML mit getrennten Panels
 }
 </style>
 
-### Zweispaltig
+### Zweispaltig - gemeinsames Panel
 <div>
 
-HTML mit gemeinsamem Panel
+HTML
 
 ```html {all|1,10|2,9|3,5|6,8}
 <div class="container-fluid">
@@ -368,7 +369,7 @@ HTML mit gemeinsamem Panel
 
 ---
 
-### Zweispaltig
+### Zweispaltig - gemeinsames Panel
 
 <style>
 .center-div {
