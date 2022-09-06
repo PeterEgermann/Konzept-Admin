@@ -79,17 +79,38 @@ li {
 <img src="/Layout_Example.png" class="mt-5 rounded shadow" />
 
 ---
+layout: cover
+---
 
 # Komponenten
+<style>
+p{
+  font-size: 25px
+}
+</style>
+Wie sollen die wiederkehrende Komponente aussehen?
 
-Um eine einfache Wiederverwendbarkeit von häufig auftretenden Elementen zu erreichen, wurden diese in Komponenten eingeordnet.
+---
 
 ### Form-Panel
 
-Hintergrund für unsere Inhalte
+<div class="mt-5 mb-5">
+
+- Hintergrund für unsere Inhalte
+
+</div>
 
 <div grid="~ cols-2 gap-2">
-
+<div>
+HTML
+```html
+<div class="form-panel">
+  <!-- Content -->
+</div>
+```
+</div>
+<div>
+CSS
 ```css
 .form-panel {
     background: #ffffff;
@@ -100,29 +121,33 @@ Hintergrund für unsere Inhalte
     margin-bottom: 10px;
 }
 ```
-
+</div>
+</div>
+<div>
+<div v-click>
+View
 <img src="/form-panel.png" class="mt-2 rounded shadow" />
 </div>
-
+</div>
 ---
 
 ### Button-Panel
 
-<div grid="~ cols-2 gap-2">
-<div>
+<div class="mt-5 mb-5">
 
 - Ansammlung von Buttons in einer Reihe
-
 </div>
-<div>
+
+<div grid="~ cols-2 gap-2">
 <div>
 HTML
 ```html
-<div class="form-panel">
+<div class="form-panel button-panel">
   <!-- Content -->
 </div>
 ```
 </div>
+<div>
 CSS
 
 ```css
@@ -138,7 +163,6 @@ CSS
     margin-right: 5px;
 }
 ```
-
 </div>
 </div>
 
@@ -189,11 +213,13 @@ View
 
 ### Breadcrumbs
 
+<div class="mt-5 mb-5">
 
-- Breadcrumbs dienen zur Navigation auf verschachtelten Seiten
+- Einfache Navigation auf verschachtelten Seiten
 
+</div>
 <div grid="~ cols-2 gap-4">
-<div class="mt-5">
+<div>
 
 CSS
 ```css
@@ -213,7 +239,7 @@ ol.breadcrumb li {
 
 </div>
 
-<div class="mt-5">
+<div>
 
 View
 
@@ -222,6 +248,41 @@ View
 </div>
 
 ---
+
  ### Breadcrumbs
 
- 
+
+<div class="mt-5 text-center">
+<img src="Breadcrumbs_beispiel.png" class="rounded shadow h-100" />
+
+</div>
+
+---
+layout: cover
+--- 
+
+# Layouts
+<style>
+p{
+  font-size: 25px
+}
+</style>
+Welche Seitenstrukturen treten wiederholt auf? 
+
+--- 
+
+# Layouts
+
+### Einspaltig
+<div grid="~ cols-2 gap-2">
+<div>
+HTML
+```html
+<div class="container-fluid">
+    <div class="form-panel col-xs-12 col-lg-6">
+        <form> </form>
+    </div>
+</div>
+```
+</div>
+</div>
