@@ -55,9 +55,8 @@ li {
 ```ts
 <div class="placeholder"></div>
 ```
-<img src="/Placeholder-example.png" class="mt-5 h-40 rounded shadow" />
+<img src="https://github.com/PeterEgermann/Konzept-Admin/blob/main/public/Placeholder-example.png" class="mt-5 h-40 rounded shadow" />
 </v-click>
-
 ---
 
 # Das grundsätzliche Layout der Seiten
