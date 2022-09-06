@@ -182,3 +182,26 @@ View
 
 <img src="/Tabelle.png" class="rounded shadow" />
 </div>
+
+--- 
+
+### Breadcrumbs
+
+<div>
+
+CSS
+```css
+.button-panel {
+    justify-content: flex-end;
+    display: flex;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 3px;
+}
+
+.button-panel > * {
+    margin-right: 5px;
+}
+```
+<img src="Breadcrumbs.png" class="rounded shadow" />
+</div>
