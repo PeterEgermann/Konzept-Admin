@@ -275,7 +275,7 @@ Welche Seitenstrukturen treten wiederholt auf?
 <div>
 HTML
 
-```html {all|1|2}
+```html {all|1,5|2,4|3}
 <div class="container-fluid">
     <div class="form-panel col-xs-12 col-lg-6">
         <form> </form>
@@ -321,20 +321,42 @@ HTML
 ---
 
 ### Zweispaltig
-<style>
+<div>
 
-.center-div {
-  justify-content: center;
-  display: flex;
-}
-</style>
-<div class="mt-5 mb-5">
- View-Alt
- </div>
-<div class="center-div mt-10">
-<img src="/only_form_horizontal_old.png" class="h-80 rounded shadow" />
+HTML mit getrennten Panels
+
+```html {all|1,8|2,4|5,7}
+<div class="container-fluid">
+    <div class="form-panel col-xl-6 col-lg-12">
+        <? Content Linke Spalte?>
+    </div>
+    <div class="form-panel col-xl-6 col-lg-12">
+        <? Content Rechte Spalte?>
+    </div>
+</div>
+```
 </div>
 
+---
+
+### Zweispaltig
+<div>
+
+HTML mit gemeinsamem Panel
+
+```html {all|1,10|2,9|3,5|6,8}
+<div class="container-fluid">
+    <div class="form-panel">
+        <div class="col-xl-6 col-lg-12">
+            <? Content Linke Spalte?>
+        </div>
+        <div class="col-xl-6 col-lg-12">
+            <? Content Rechte Spalte?>
+        </div>
+    </div>
+</div>
+```
+</div>
 ---
 
 ### Zweispaltig
@@ -346,7 +368,7 @@ HTML
 </style>
 
 <div class="mt-5 mb-5">
- View-Neu
+ View mit getrennten Panels
  </div>
 <div class="center-div">
 <img src="/only_form_horizontal_new.png" class="h-80 rounded shadow" />
