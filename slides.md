@@ -340,6 +340,26 @@ HTML mit getrennten Panels
 ---
 
 ### Zweispaltig
+
+<style>
+.center-div {
+  justify-content: center;
+  display: flex;
+}
+</style>
+
+<div class="mt-5 mb-5">
+ View mit getrennten Panels
+ </div>
+
+
+<div class="center-div">
+<img src="/Zweispaltig_einzeln.png" class="h-80 rounded shadow" />
+</div>
+
+---
+
+### Zweispaltig
 <div>
 
 HTML mit gemeinsamem Panel
@@ -357,9 +377,11 @@ HTML mit gemeinsamem Panel
 </div>
 ```
 </div>
+
 ---
 
 ### Zweispaltig
+
 <style>
 .center-div {
   justify-content: center;
@@ -368,8 +390,52 @@ HTML mit gemeinsamem Panel
 </style>
 
 <div class="mt-5 mb-5">
- View mit getrennten Panels
+ View mit gemeinsamem Panel
  </div>
+
+
 <div class="center-div">
-<img src="/only_form_horizontal_new.png" class="h-80 rounded shadow" />
+<img src="/Zweispaltig_Gemeinsam.png" class="h-80 rounded shadow" />
 </div>
+
+---
+
+### Zeilen
+
+<div>
+
+HTML
+
+```html {all|1,8|2,4|5,7}
+<div class="container-fluid">
+    <div class="form-panel horizontal-form-row">
+        <form> </form>
+    </div>
+    <div class="form-panel">
+        <table> </table>
+    </div>
+</div>
+```
+</div>
+
+---
+
+### Zweispaltig
+
+<style>
+.center-div {
+  justify-content: center;
+  display: flex;
+}
+</style>
+
+<div class="mt-5 mb-5">
+ View mit gemeinsamem Panel
+ </div>
+
+
+<div class="center-div">
+<img src="/Zweispaltig_Gemeinsam.png" class="h-80 rounded shadow" />
+</div>
+
+---
