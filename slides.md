@@ -149,8 +149,8 @@ Gerendert
 
 ---
 
-# Tabellen
-<div grid="~ cols-2 gap-2">
+### Tabellen
+
 <div>
 
 HTML
@@ -172,7 +172,13 @@ HTML
 ```
 </div>
 
-<div>
-Tabellen sollten immer so a
+---
 
+### Tabellen
+
+<div>
+
+View
+
+<img src="/Tabelle.png" class="rounded shadow" />
 </div>
