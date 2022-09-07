@@ -140,7 +140,7 @@ View
 <div>
 HTML
 ```html
-<div class="form-panel">
+<div class="form-panel form-row">
   <!-- Content -->
 </div>
 ```
@@ -165,7 +165,7 @@ CSS
 <div>
 <div v-click>
 View
-<img src="/form-panel.png" class="mt-2 rounded shadow" />
+<img src="/form-row.png" class="mt-2 rounded shadow" />
 </div>
 </div>
 ---
