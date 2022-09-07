@@ -460,7 +460,7 @@ HTML
  View-Alt
  </div>
 <div class="center-div">
-<img src="/filter_tabelle_etcd_old.png" class="h-95 rounded shadow" />
+<img src="/filter_tabelle_etcd_old_2.png" class="h-95 rounded shadow" />
 </div>
 
 ---
