@@ -25,7 +25,9 @@ von Peter Egermann
 
 - Vorteile einer einheitlichen Oberfläche
 - Umstellung auf Bootstrap 5.1
-- Vorher-Nachher Vergleich
+- Das allgemeine Layout
+- Komponenten
+- Layouts
 
 <style>
 li {
@@ -59,7 +61,8 @@ li {
 </v-click>
 ---
 
-# Das grundsätzliche Layout der Seiten
+# Das allgemeine Layout
+
 
 ```html {all|1|2|3|4|5,7|6|8}
 <Breadcrumbs>
@@ -74,7 +77,7 @@ li {
 
 ---
 
-# Das grundsätzliche Layout der Seiten
+# Das allgemeine Layout
 
 <img src="/Layout_Example.png" class="mt-5 rounded shadow" />
 
@@ -119,6 +122,42 @@ CSS
     text-align: left;
     border-radius: 7px;
     margin-bottom: 10px;
+}
+```
+</div>
+</div>
+<div>
+<div v-click>
+View
+<img src="/form-panel.png" class="mt-2 rounded shadow" />
+</div>
+</div>
+---
+
+### Form-Row
+
+<div grid="~ cols-2 gap-2">
+<div>
+HTML
+```html
+<div class="form-panel">
+  <!-- Content -->
+</div>
+```
+</div>
+<div>
+
+CSS
+```css
+.form-row {
+    justify-content: flex-start;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-row > * {
+    margin-right: 5px;
 }
 ```
 </div>
