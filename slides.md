@@ -105,6 +105,7 @@ Wie sollen die wiederkehrende Komponente aussehen?
 
 <div grid="~ cols-2 gap-2">
 <div>
+
 HTML
 ```html
 <div class="form-panel">
@@ -113,6 +114,7 @@ HTML
 ```
 </div>
 <div>
+
 CSS
 ```css
 .form-panel {
@@ -138,6 +140,7 @@ View
 
 <div grid="~ cols-2 gap-2">
 <div>
+
 HTML
 ```html
 <div class="form-panel form-row">
@@ -251,7 +254,6 @@ View
 --- 
 
 ### Breadcrumbs
-mit getrennten Panels
 <div class="mt-5 mb-5">
 
 - Einfache Navigation auf verschachtelten Seiten
@@ -275,13 +277,10 @@ ol.breadcrumb li {
     margin-right: 5px;
 }
 ```
-
 </div>
-
 <div>
 
 View
-
 
 <img src="Breadcrumbs.png" class="rounded shadow" />
 </div>
